@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    background-color: rgb(16, 87, 87);
+    height: 900px;
+}
+
+.container{
+    width: 900px;
+    background-color: aquamarine;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 70px;
+}
+
+.menu-left{
+    display: flex;
+    flex: 2;
+    background-color: bisque;
+}
+
+.menu-right{
+    display: flex;
+    flex: 1;
+    background-color: burlywood;
+}
+
+.logo{
+    background-color: red;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+}
+
+.banner{
+    display: flex;
+    background-color: cadetblue;
+    height: 200px;
+}
