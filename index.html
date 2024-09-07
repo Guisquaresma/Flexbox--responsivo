@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site responsivo com FlexBox</title>
-
     <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 
+    <title>Site responsivo com FlexBox</title>
+</head>
+
+<body>
+    <!-- DIV GERAL -->
     <div class="geral">
-        <section>
+
+        <!-- SESSÃO BARRA DE NAVEGAÇÃO -->
+        <section class="meu-menu">
             <div class="container">
                 <div class="menu">
                     <nav class="menu-left">
@@ -18,22 +27,37 @@
                             Marca
                         </div>
                         <div class="links">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                            <a href="#">Link 4</a>
-                            <a href="#">Link 5</a>
+                            <a href="#">HOME</a>
+                            <a href="#">CONTATO</a>
+                            <a href="#">QUEM SOMOS</a>
+                            <a href="#">NOTICIAS</a>>
                         </div>
                     </nav>
-                    <div class="menu-right">Menu Right</div>
-                </div>
-                    </nav>
-   
-            
+                    <div class="menu-right">
+                        <!-- REDES SOCIAIS -->
+                        <a class="redes" href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a class="redes" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="redes" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="redes" href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
 
-            <!--NEWS-->
-            <section>
-                <div class="container"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="banner"></div>
+
+        <!--NEWS-->
+        <section>
+            <div class="container">
                 <article class="news">
                     <div class="news-left">
                         Texto
@@ -42,31 +66,26 @@
                         Botão
                     </div>
                 </article>
-            </section>
-        </div> <!--Fim div container-->
+            </div>
+        </section>
 
-    </section>
-
-    <div class="banner"></div>
-    <!--Eventos-->
-    <section>
-        <div class="container">
-            <article>
-                <div class="titulo">Titulo
-                </div>
-                <div class="eventos">
-                    <div class="eventos-1">Eventos</div>
-                    <div class="eventos-2">Eventos</div>
-                    <div class="eventos-3">Eventos</div>
-                </div>
-            </article>
-        </div>
-    </section>
-    <footer class="rodape">Rodape</footer>
-
-
-
+        <!--EVENTOS-->
+        <section>
+            <div class="container">
+                <article>
+                    <div class="titulo">Titulo
+                    </div>
+                    <div class="eventos">
+                        <div class="eventos-1">Eventos</div>
+                        <div class="eventos-2">Eventos</div>
+                        <div class="eventos-3">Eventos</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <footer class="rodape">Rodape</footer>
 
     </div> <!--Fim div geral-->
 </body>
+
 </html>
