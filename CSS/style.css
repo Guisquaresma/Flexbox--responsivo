@@ -35,6 +35,8 @@ section{
 .menu-right{
     display: flex;
     flex: 1;
+    justify-content: center;
+    margin: 15px;
 }
 
 .logo{
@@ -54,11 +56,11 @@ section{
     margin: 10px;
 }
 
-.links, a {
+.links, a, .rodape{
     text-decoration: none;
     margin: 7px;
     font-weight: bold;
-    color: darkgray;
+    color: rgb(119, 119, 119);
     font-family: "Open Sans", sans serif;
 }
 
@@ -68,8 +70,12 @@ a:hover {
 }
 
 .banner{
+    background-image: url(../assets/img/espaco.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50%;
+    background-size: cover;
     display: flex;
-    background-color: cadetblue;
     height: 200px;
 }
 
@@ -80,32 +86,131 @@ a:hover {
 
 .news-left {
     flex: 2;
-    background-color: bisque;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    margin: 2%;
+    width: 80px;
+    height: 80px;
 }
 
 .news-right {
     flex: 1;
-    background-color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.saiba-mais {
+    text-align: center;
+    
+ }
+
 .titulo {
-    background-color: greenyellow;
+    background-image: url(../assets/img/universo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin: 50px;
+}
+
+.sub-titulo {
+    color: antiquewhite;
+    margin: 20px;
 }
 
 .eventos {
     display: flex;
     width: 900px;
     height: 200px;
+    margin: 50px;
 }
 
-.eventos-1,
-.eventos-2,
+.eventos-1 {
+    background-image: url(../assets/img/mundosenai.png);
+    margin: 3%;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background-position: 5%;
+    background-size: 165px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.eventos-2 {
+    background-image: url(../assets/img/inovasenai.jpg);
+    margin: 3%;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background-position: center;
+    background-size: 130px;
+    align-items: center;
+}
+
 .eventos-3 {
-    flex: 1;
-    background-color: darkseagreen;
-    margin: 10px;
+    background-image: url(../assets/img/grandprix.jpg);
+    margin: 3%;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background-position: center;
+    background-size: 160px;
+    align-items: center;
 }
 
-footer {
-    background-color: green;
+footer  {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+
+.news-left-end {
+    flex: 2;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    margin: 1%;
+    width: 80px;
+    height: 80px;
+}
+
+.news-right-end {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    display: flex;
+}
+
+.foto-1 {
+    background-image: url(../assets/img/senai1.jpeg);
+    margin: 2%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    align-items: center;
+}
+
+.foto-2 {
+    background-image: url(../assets/img/senai2.jfif);
+    margin: 2%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: 120px;
+    align-items: center;
 }
