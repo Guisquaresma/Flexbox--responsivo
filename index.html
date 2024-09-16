@@ -4,120 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site responsivo com FlexBox</title>
+
     <link rel="stylesheet" href="CSS/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 
-    <title>Site responsivo com FlexBox</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- DIV GERAL -->
-    <div class="geral">
 
-        <!-- SESSÃO BARRA DE NAVEGAÇÃO -->
+    <div class="geral">
         <section class="meu-menu">
             <div class="container">
                 <div class="menu">
                     <nav class="menu-left">
                         <div class="logo">
+                            Marca
                         </div>
                         <div class="links">
                             <a href="#">HOME</a>
                             <a href="#">CONTATO</a>
                             <a href="#">QUEM SOMOS</a>
                             <a href="#">NOTICIAS</a>
+                            <a href="#"></a>
                         </div>
                     </nav>
                     <div class="menu-right">
-                        <!-- REDES SOCIAIS -->
-                        <a class="redes" href="#">
+                        <a href="#">
                             <i class="fab fa-facebook"></i>
                         </a>
-                        <a class="redes" href="#">
+                        <a href="#">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a class="redes" href="#">
+                        <a href="#">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a class="redes" href="#">
+                        <a href="#">
                             <i class="fab fa-linkedin"></i>
                         </a>
-
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <div class="banner"></div>
+                </section>
 
-        <!--NEWS-->
-        <section>
-            <div class="container">
-                <article class="news">
-                    <div class="news-left">
-                        <h1>Onde estamos no espaço ?</h1>
-                        <i>A relação tempo e espaço nos revelará através dos períodos históricas e a organização
-                            espacial uma sucessão de sistemas espaciais no qual o valor relativo de cada lugar está
-                            sempre mudando no decorrer da história</i>
+                <div class="banner"></div>
+
+                <!--NEWS-->
+                <section>
+                    <div class="container1">
+                        <article class="news">
+                            <div class="news-left">
+                                <span class="small-title">Onde estamos no espaço ?</span>
+
+                            <p><em>A relação tempo e espaço nos revelará através dos períodos históricos e a organização espacial uma sucessão de sistemas espaciais no qual o valor relativo de cada lugar está sempre mudando no decorrer da história.</em></p>
+                            </div>
+                            <div class="news-right">
+                                <button class="button-saiba-mais">SAIBA MAIS</button>
+                            </div>
+                        </article>
                     </div>
-                    <div class="news-right">
-                        <button class="saiba-mais">SAIBA MAIS</button>
-                    </div>
-                </article>
-            </div>
-        </section>
 
-        <!--EVENTOS-->
-        <section>
-            <div class="container">
-                <article>
-                    <div class="titulo">
-                        <div class="sub-titulo">
-                            <h1>Saga SENAI de inovação...</h1>
+                </section>
 
+                <!--Eventos-->
+                <section>
+                    <div class="container2">
+                        <article class="senai">
+                            <div class="titulo">Saga SENAI de inovação...
+                            </div>
                             <div class="eventos">
                                 <div class="eventos-1"></div>
                                 <div class="eventos-2"></div>
                                 <div class="eventos-3"></div>
                             </div>
-                        </div>
+                        </article>
                     </div>
-                </article>
-            </div>
-        </section>
+                </section>
 
-        <section>
-            <div class="container">
-                <article class="news">
-                    <div class="news-left-end">
-                        <h1>SENAI - Vitória da Conquista</h1>
-                        <i>A unidade iniciou suas atividades em 2014. No entanto, o SENAI BAHIA tem qualidade
-                            reconhecida pelo mercada desde 1949 produzindo conhecimento, Inovação, aprendizado e
-                            contribuindo para o desenvolvimento de competências e habilidades necessárias ao
-                            profissional do futuro. Essa unidade atua nos municipias da região sudoeste do estado da
-                            Bahia com equipe especializada e infraestrutura laboratorial adequada para você e para sua
-                            empresa.</i>
-                    </div>
-                    <div class="news-right-end">
-                        <article>
-                            <div class="photo">
-                                <div class="foto-1"></div>
-                                <div class="foto-2"></div>
+                <!--Senai V.C-->
+
+                <section>
+                    <div class="container3">
+                        <article class="sobre">
+                            <div class="sobre-left">
+                                <div><h1 class="small-title">SENAI - Vitória da Conquista</h1>
+                                
+                                    <p class="polo_vca"><em>A unidade iniciou suas atividades em 2014. No entanto, o SENAI BAHIA tem qualidade reconhecida pelo mercado desde 1949 produzindo conhecimento, inovação, aprendizado e contribuindo para o desenvolvimento de competências e habilidades necessárias ao profissional do futuro. Essa unidade atua nos municípios da região sudoeste do estado da Bahia com equipe especializada e infraestrutura laboratorial adequada para você e para sua empresa.</em></p>
+                                </div>
+                            </div>
+
+                            <div class="sobre-right">
+                                <div class="img">
+                                    <div class="img1"><img src="assets/img/senai1.jpeg" alt="Imagem 1"></div>
+                                    <div class="img2"><img src="assets/img/senai2.jfif" alt=""></div>
+                                </div>
                             </div>
                         </article>
                     </div>
-                </article>
-            </div>
-        </section>
+                </section>
 
-        <footer class="rodape">
-            <p>Todos os direitos reservados © 2024 <span>Miquéias Sousa</span></p>
-        </footer>
-    </div> <!--Fim div geral-->
+                <footer class="rodape">Todos os direitos reservados &copy; 2024 Guilherme Quaresma</footer>
+
+            </div> <!--Fim div geral-->
 </body>
 
 </html>
