@@ -24,6 +24,7 @@ body{
     display: flex;
     width: 70%;
     margin-left: 7%;
+    align-items: center;
 }
 
 .container4{
@@ -226,15 +227,17 @@ footer{
 }
 
 .sobre-left{
-    flex: 1.3;
-    width: 40%;
+    flex: 2;
+    height: 150px;
+    align-items: center;
+    width: 700px;
 }
 
 .sobre-right{
     flex: 1;
 }
 
-.polo_vca{
+.informacao{
     text-align: center;
     text-indent: 30px;
     align-items: center;
